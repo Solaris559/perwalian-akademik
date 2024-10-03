@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #d30202;
+}
+
+.offcanvas-body .nav-link {
+  color: #ff8d8d;
+}
+
+.offcanvas-body .nav-link.active {
+  color: #ffffff !important;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  color: #ffffff !important;
+}
+
+#offcanvasNavbar {
+  background-color: #d30202;
+}
+
+.navbar-toggler {
+    background-color: transparent; /* Membuat latar belakang tombol transparan */
+    border: none; /* Menghilangkan border pada tombol */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    display: flex; /* Menggunakan flexbox untuk menata gambar */
+    justify-content: center; /* Mengatur posisi horizontal di tengah */
+    align-items: center; /* Mengatur posisi vertikal di tengah */
+    width: 40px; /* Lebar ikon toggle */
+    height: 40px; /* Tinggi ikon toggle */
+}
+
+.navbar-toggler img {
+    width: 100%; /* Memastikan gambar memenuhi ikon toggle */
+    height: auto; /* Menjaga rasio aspek gambar */
+}

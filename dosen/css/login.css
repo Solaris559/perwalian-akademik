@@ -39,16 +39,24 @@ body {
   height: auto;
 }
 
-.left h1 {
-  margin-top: 20px;
-  font-size: 24px;
+.welcome {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
-.left p {
+.left h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.description {
   margin-top: 10px;
   font-size: 14px;
   text-align: center;
   line-height: 1.5;
+  color: #ccc;
 }
 
 .right {
@@ -76,9 +84,19 @@ body {
 .form-group input {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: none;
+  border-bottom: 1px solid #000000;
   font-size: 16px;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-bottom: 2px solid #688ac4;
+}
+
+.form-group input:hover {
+  border-bottom: 2px solid #688ac4;
 }
 
 .form-group label {
@@ -117,13 +135,6 @@ body {
   align-self: center;
 }
 
-.google-signin {
-  margin-top: 20px;
-  align-items: center;
-  display: flex;
-}
-
-.google-signin img {
-  width: 30px;
-  height: auto;
+.login-btn:hover {
+  color: whitesmoke;
 }
