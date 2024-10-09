@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,52 @@
     <style>
         body {
             font-family: Times new roman;
-            background-image:url('picture/bg_main.jpg');
-            background-size:cover;
-            background-position:cover;
-            background-repeat:no-repeat;
+            background-image: url('picture/bg_main.jpg');
+            background-size: cover;
+            background-position: cover;
+            background-repeat: no-repeat;
         }
+
         .offcanvas-header {
-            justify-content:center;
+            justify-content: center;
         }
-        .navbar{
-            background-color:maroon;
+
+        .navbar {
+            background-color: maroon;
         }
+
         .container-centering {
-            justify-content:center;
-            align-items:center;
-            text-align:center;   
-            padding-right:40px;
-            padding-left:40px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-right: 40px;
+            padding-left: 40px;
         }
+
         .container-centering h2 {
-            background-color:white;
-            border:2px solid gray;
-            padding:10px;
-            border-radius:6px;
-            box-shadow:3px 3px 10px rgba (0,0,0,0,0.2);
+            background-color: white;
+            border: 2px solid gray;
+            padding: 10px;
+            border-radius: 6px;
+            box-shadow: 3px 3px 10px rgba (0, 0, 0, 0, 0.2);
         }
+
         p {
-            font-size:18px;
+            font-size: 18px;
         }
+
         .sides {
-            justify-content:center;
-            align-items:center;
-            text-align:center;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
+
         .nav-link {
-            border-radius:6px;
+            border-radius: 6px;
         }
     </style>
 </head>
+
 <body>
     <div class="offcanvas offcanvas-start" id="mycanvas">
         <div class="offcanvas-header text-bg-dark">
@@ -53,14 +62,14 @@
         </div>
         <div class="offcanvas-body sides">
             <!-- Actived on Beranda -->
-            <a href="#" class="nav-link pt-3 pb-3 text-bg-warning">Beranda</a> 
+            <a href="#" class="nav-link pt-3 pb-3 text-bg-warning">Beranda</a>
             <a href="#" class="nav-link pt-3 pb-3">Data Konsultasi</a>
             <a href="#" class="nav-link pt-3 pb-3">Rekomendasi</a>
             <a href="#" class="nav-link pt-3 pb-3">Janji Temu</a>
         </div>
     </div>
-    <div class="container-fluid" style="padding-top:70px;">    
-    <!-- Navigation-bar laman -->
+    <div class="container-fluid" style="padding-top:70px;">
+        <!-- Navigation-bar laman -->
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
             <div class="container-fluid">
                 <!-- Bagian button sidebar -->
@@ -107,9 +116,10 @@
         <p>
             Pelaksanaan pembimbingan akademik di lingkungan Jurusan Teknik Elektro lebih lanjut diatur <br>
             dalam <b>Standard Operating Procedure Pembimbingan Akademik Nomor Dokumen :</b><br>
-            <a href="#">SOP/03/8.5.3/EL/013/E01</a> 
+            <a href="#">SOP/03/8.5.3/EL/013/E01</a>
         </p>
     </div>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

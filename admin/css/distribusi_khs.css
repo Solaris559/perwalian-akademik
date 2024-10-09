@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #d30202 !important;
+}
+
+.dropdown-center .btn-secondary {
+  background-color: #d30202;
+  border: none;
+  color: #ffffff; /* Warna teks putih agar kontras */
+}
+
+.dropdown-center .btn-secondary:hover,
+.dropdown-center .btn-secondary:focus,
+.dropdown-center .btn-secondary:active,
+.dropdown-center .btn-secondary.show {
+  background-color: #d30202 !important;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-center .btn-secondary {
+  background-color: #d30202;
+  border: none;
+}
+
+.dropdown-center .dropdown-menu {
+  background-color: #d30202;
+}
+
+.dropdown-item {
+  color: #ff8d8d !important;
+}
+
+.dropdown-menu .dropdown-item.active{
+  color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+.dropdown-item:hover {
+  background-color: #d30202 !important;
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.offcanvas-body .nav-link {
+  color: #ff8d8d;
+}
+
+.offcanvas-body .nav-link.active {
+  color: #ffffff !important;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #ffffff;
+}
+
+#offcanvasNavbar {
+  background-color: #d30202;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-toggler img {
+  width: 100%;
+  height: auto;
+}
